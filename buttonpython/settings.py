@@ -29,9 +29,11 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static'),
+    'Django\buttonpython\static',
 ]
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
 STATIC_URL = '/static/'
 
 # Application definition
