@@ -29,7 +29,7 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "static"),  # your static/ files folder
+    os.path.join(BASE_DIR, "static"), # your static/ files folder
 ]
 
 
