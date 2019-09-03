@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Python </title>
+</head>
+
+<body>
+    <hr>
+
+
+    <form action="/amar/external/" method="post">
+
+        Input Text:
+        <input type="text" name="search" required><br><br>
+        <input type="submit" value="Excute the script" name="form">
+
+        <ul>
+            <h5>{{med1}}</h5>
+            {% for n in data1 %}
+            <li>{{n}}</li>
+            {% endfor %}
+        </ul>
+
+        <ul>
+            <h5>{{med2}}</h5>
+            {% for n in data2 %}
+            <a href="{{n}}">
+                <li>{{n}}</li>
+            </a>
+
+
+            {% endfor %}
+        </ul>
+
+        <ul>
+            <h5>{{med3}}</h5>
+            {% for n in data3 %}
+            <li>{{n}}</li>
+            {% endfor %}
+        </ul>
+
+        <ul>
+            <h5>{{you1}}</h5>
+            {% for n in data4 %}
+            <li>{{n}}</li>
+            {% endfor %}
+        </ul>
+
+        <ul>
+            <h5>{{you2}}</h5>
+            {% for n in data5 %}
+            <a href="{{n}}">
+                <li>{{n}}</li>
+            </a>
+            {% endfor %}
+        </ul>
+
+        <!-- <ul>
+            <h5>{{you3}}</h5>
+            {% for n in data6 %}
+            <li>{{n}}</li>
+            {% endfor %}
+        </ul> -->
+
+        <ul>
+            <h5>{{cop3}}</h5>
+            {% for n in data7 %}
+            <li>{{n}}</li>
+            {% endfor %}
+        </ul>
+
+        <ul>
+            <h5>{{cop2}}</h5>
+            {% for n in data8 %}
+            <a href="{{n}}">
+                <li>{{n}}</li>
+            </a>
+            {% endfor %}
+        </ul>
+
+        <ul>
+            <h5>{{cop1}}</h5>
+            {% for n in data9 %}
+            <li>{{n}}</li>
+            {% endfor %}
+        </ul>
+
+        <ul>
+            <h5>{{git0}}</h5>
+            {% for n in data10 %}
+            <li>{{n}}</li>
+            {% endfor %}
+        </ul>
+
+        <ul>
+            <h5>{{git1}}</h5>
+            {% for n in data11 %}
+            <a href="{{n}}">
+                <li>{{n}}</li>
+            </a>
+            {% endfor %}
+        </ul>
+
+        <ul>
+            <h5>{{git2}}</h5>
+            {% for n in data12 %}
+            <li>{{n}}</li>
+            {% endfor %}
+        </ul>
+
+
+    </form>
+</body>
+
+</html>

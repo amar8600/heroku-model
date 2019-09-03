@@ -1,0 +1,25 @@
+{% load socialaccount %}
+
+<html>
+
+<head>
+    <title>Google Registration</title>
+
+</head>
+
+<body>
+
+    <h1>Are you sure you want to logout?</h1>
+    <button id="yes" onclick="yes()" value="Yes">Yes</button>
+    <script>
+        function yes() {
+            window.location.href = 'auth_social';
+        }
+    </script>
+    <a href="{% url 'new' %}">GO to home</a>
+    <button id="no" value="No">No</button>
+
+
+</body>
+
+</html>
