@@ -24,9 +24,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'ovxn5l@^7luu+j7em@h8zsjc#8=jsbxui3*)x-u-ux5ulz$2^x'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://firstdjango1994.herokuapp.com']
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),  # your static/ files folder
@@ -143,6 +143,6 @@ django_heroku.settings(locals())
 # SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '821033723290-flh3jb9p3fivsg6rmmet7v7p3n9u88p8.apps.googleusercontent.com'
 # SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '09tfs9_5hCjsgj19igiep--b'
 
-SITE_ID = 1
+SITE_ID = 3
 LOGIN_REDIRECT_URL = 'home1'
 LOGOUT_REDIRECT_URL = 'home1'
