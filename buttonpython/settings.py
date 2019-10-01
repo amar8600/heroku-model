@@ -24,9 +24,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'ovxn5l@^7luu+j7em@h8zsjc#8=jsbxui3*)x-u-ux5ulz$2^x'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['https://firstdjango1994.herokuapp.com']
+ALLOWED_HOSTS = []
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),  # your static/ files folder
