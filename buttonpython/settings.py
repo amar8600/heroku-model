@@ -143,6 +143,6 @@ django_heroku.settings(locals())
 # SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '821033723290-flh3jb9p3fivsg6rmmet7v7p3n9u88p8.apps.googleusercontent.com'
 # SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '09tfs9_5hCjsgj19igiep--b'
 
-SITE_ID = 1
+SITE_ID = 5
 LOGIN_REDIRECT_URL = 'home1'
 LOGOUT_REDIRECT_URL = 'home1'
