@@ -74,7 +74,7 @@ pycparser==2.19
 PyDispatcher==2.0.5
 PyGithub==1.43.7
 PyHamcrest==1.9.0
-PyJWT==1.7.1
+PyJWT==2.4.0
 pylint==2.3.1
 pyOpenSSL==19.0.0
 python-dateutil==2.8.0
